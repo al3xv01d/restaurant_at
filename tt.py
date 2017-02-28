@@ -2,7 +2,8 @@ from pprint import pprint
 from app.tools import driver, Wait
 from pages.product_page import ProductPage
 from pages.category_page import CategoryPage
-
+from pages.cart_page import CartPage
+from pages.page import Page
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -12,17 +13,9 @@ from time import sleep
 
 
 driver.get('https://www.restaurantsupply.com/bloomfield-commercial-coffee-makers-brewers-pourover')
-cp = CategoryPage(2)
-title = cp.product_title.text
-cp.product_qty.send_keys(1)
-# product = driver.find_element_by_xpath("//ol[@class='products list items product-items']/li[9]")
-# title = product.find_element_by_xpath(".//div//strong/a").text
-pprint(title)
+cat = CategoryPage()
+cat.add_to_cart()
+cp = CartPage()
 
-cp.add_to_cart_button.click()
-#driver.quit()
-#
-# element = WebDriverWait(driver, 10).until(
-#     EC.element_to_be_clickable((By.XPATH, '//button[@id="empty_cart_button"]'))
-# )
+pprint(cp.item_qty.get_attribute('value'))
 
