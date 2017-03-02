@@ -1,5 +1,5 @@
 from pages.page import Page
 
 
-class Index(Page):
+class IndexPage(Page):
     pass

@@ -4,17 +4,17 @@ from app.tools import find
 
 class ProductPage(Page):
 
-    product_qty_lo = '//input[@id="qty"]'
-    add_to_cart_button_lo = '//button[@id="product-addtocart-button"]'
-    product_title_lo = '//span[@data-ui-id="page-title-wrapper"]'
+    shipping_email_lo = ''
+    shipping_name_lo = ''
+    shipping_last_name_lo = ''
+    shipping_address_1_lo = ''
+    shipping_zip_lo = ''
+    shipping_city_lo = ''
+    shipping_state_lo = ''
+    shipping_country_lo = ''
+    shipping_phone_lo = ''
+    shipping_next_button = ''
 
-    related_product_lo = '//div[@class="b-fbt-products"]/li[%d]'
-    related_product_atc_button_lo = './/button'
-    related_title_lo = './/strong/a'
-    related_qty_lo = './/input[@name="qty"]'
-
-    related_message_lo = '//div[@data-placeholder="messages"]'
-    related_modal_lo = '//div[@class="customization_add_cart_new_product"]//span[2]'
 
     # --------------------------------  ACTIONS -------------------------------------
     def add_to_cart(self, qty=1):
@@ -49,11 +49,6 @@ class ProductPage(Page):
     @property
     def related_message(self):
         return find(self.related_message_lo)
-
-    @property
-    def related_modal(self):
-        return find(self.related_modal_lo)
-
     # -------------------------------- ELEMENTS (returns selenium object)-------------------------------------
     @property
     def product_qty(self):

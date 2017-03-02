@@ -12,9 +12,10 @@ class Page():
 
     login_icon_lo = '//ul[@class="header-links"]/li[4]'
     logout_link_lo = '//a[contains(@href, "customer/account/logout/")]'
-    cart_counter_lo = '//span[@class="counter-number"]'
+    cart_counter_number_lo = '//span[@class="counter-number"]'
     search_input_lo = '//input[@id="search"]'
     search_button_lo = '//button[@id="search_button"]'
+    full_page_loader_lo = '//div[@class="loading-mask"]'
 
     # --------------------------------  ACTIONS ------------------------------------------------------------------
     def login(self):
@@ -50,8 +51,8 @@ class Page():
         return find(self.logout_link_lo)
 
     @property
-    def cart_counter(self):
-        return find(self.cart_counter_lo)
+    def cart_counter_number(self):
+        return find(self.cart_counter_number_lo)
 
     @property
     def search_input(self):

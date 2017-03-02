@@ -26,4 +26,15 @@ class Wait():
         WebDriverWait(driver, 60).until(
             EC.element_to_be_clickable((By.XPATH, element))
         )
-        return element
+
+    @staticmethod
+    def invisible(element):
+        WebDriverWait(driver, 60).until(
+            EC.invisibility_of_element_located((By.XPATH, element))
+        )
+
+    @staticmethod
+    def visible(element):
+        WebDriverWait(driver, 60).until(
+            EC.visibility_of_element_located((By.XPATH, element))
+        )

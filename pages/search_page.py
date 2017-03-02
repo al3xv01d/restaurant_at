@@ -2,13 +2,12 @@ from pages.page import Page
 from app.tools import find
 
 
-class CartPage(Page):
+class SearchPage(Page):
 
     empty_cart_link_lo = '//button[@id="empty_cart_button"]'
     checkout_button_lo = '//input[@id="qty"]'
     zip_code_field_lo = '//input[@id="IX1UU3A"]'
     #item locators
-    item_lo = '//table[@id="shopping-cart-table"]/tbody/tr[%d]'
     item_qty_lo = './/input[@title="Qty"]'
     item_title_lo = './/strong[@class="product-item-name"]/a'
 
@@ -20,16 +19,17 @@ class CartPage(Page):
 
 
     #-------------------------------- ITEM ELEMENTS (returns selenium object)-------------------------------------
+   #product item in cart
     def item(self, n=1):
-        return find(self.item_lo % n)
+        return find('//table[@id="shopping-cart-table"]/tbody/tr[%d]' % n)
 
+    @property
+    def item_qty(self):
+        return self.item().find_element_by_xpath(self.item_qty_lo)
 
-    def item_qty(self, n=1):
-        return self.item(n).find_element_by_xpath(self.item_qty_lo)
-
-
-    def item_title(self, n=1):
-        return self.item(n).find_element_by_xpath(self.item_title_lo)
+    @property
+    def item_title(self):
+        return self.item().find_element_by_xpath(self.item_title_lo)
 
     # -------------------------------- ELEMENTS (returns selenium object)-------------------------------------
     @property
