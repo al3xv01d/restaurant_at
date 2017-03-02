@@ -1,5 +1,5 @@
 from pages.page import Page
-from app.tools import find
+from app.tools import find, Wait
 
 
 class ProductPage(Page):
@@ -7,6 +7,7 @@ class ProductPage(Page):
     product_qty_lo = '//input[@id="qty"]'
     add_to_cart_button_lo = '//button[@id="product-addtocart-button"]'
     product_title_lo = '//span[@data-ui-id="page-title-wrapper"]'
+    product_img_lo = '//img[@class="fotorama__img"]'
 
     related_product_lo = '//div[@class="b-fbt-products"]/li[%d]'
     related_product_atc_button_lo = './/button'
@@ -18,6 +19,7 @@ class ProductPage(Page):
 
     # --------------------------------  ACTIONS -------------------------------------
     def add_to_cart(self, qty=1):
+        Wait.visible(self.product_img_lo)
         if qty > 1:
             self.product_qty.clear()
             self.product_qty.send_keys(qty)
