@@ -1,5 +1,5 @@
 from pages.page import Page
-from app.tools import find, get
+from app.tools import find
 
 
 class CategoryPage(Page):

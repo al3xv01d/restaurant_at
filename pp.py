@@ -1,10 +1,18 @@
-from random import randint, choice
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 
-def rand_phone():
-    num = '0123456789'
-    phone = ''
-    rand_num = randint(12, 15)
-    for i in range(0, rand_num):
-        phone += choice(num)
-    return phone
-print(rand_phone())
+desired_cap = {'os': 'Windows', 'os_version': 'xp', 'browser': 'IE', 'browser_version': '7.0' }
+
+driver = webdriver.Remote(
+    command_executor='http://vadymantsyferov1:smT8fwsFdxEBsi7bUWcd@hub.browserstack.com:80/wd/hub',
+    desired_capabilities=desired_cap)
+
+driver.get("http://www.google.com")
+if not "Google" in driver.title:
+    raise Exception("Unable to load google page!")
+elem = driver.find_element_by_name("q")
+elem.send_keys("BrowserStack")
+elem.submit()
+print(driver.title)
+driver.quit()

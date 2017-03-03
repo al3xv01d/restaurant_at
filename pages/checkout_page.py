@@ -43,8 +43,6 @@ class CheckoutPage(Page):
 
 
     # --------------------------------  ACTIONS -------------------------------------
-    def add_to_cart(self, qty=1):
-        pass
 
 
     # -------------------------------- SHIPPING PAGE ELEMENTS (returns selenium object)-------------------------------------
@@ -145,7 +143,7 @@ class CheckoutPage(Page):
     def billing_phone(self):
         return find(self.billing_phone_lo)
 
-    #****************CREDIT CART FORM
+    #****************CREDIT CART FORM**************************
 
     @property
     def cc_number(self):

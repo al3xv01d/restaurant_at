@@ -7,6 +7,7 @@ class CartPage(Page):
     empty_cart_link_lo = '//button[@id="empty_cart_button"]'
     zip_code_field_lo = '//input[@name="postcode"]'
     checkout_button_lo = '//button[@data-role="proceed-to-checkout"]'
+
     #item locators
     item_lo = '//table[@id="shopping-cart-table"]/tbody/tr[%d]'
     item_qty_lo = './/input[@title="Qty"]'

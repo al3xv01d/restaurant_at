@@ -1,35 +1,32 @@
-from pages.product_page import ProductPage
 from app.tools import get, Wait
-from config import base_url
+from config import product_with_related
 
 
-def test_add_one_product_from_related_products_block():
-    get(base_url + '/bloomfield-8774-a')
-    pp = ProductPage()
-    pp.add_related()
+def test_add_one_product_from_related_products_block(app):
+    get(product_with_related)
+    app.product_page.add_related()
 
-    Wait.visible(pp.cart_counter_number_lo)
-    Wait.visible(pp.related_message_lo)
-    Wait.visible(pp.related_modal_lo)
+    Wait.visible(app.product_page.cart_counter_number_lo)
+    Wait.visible(app.product_page.related_message_lo)
+    Wait.visible(app.product_page.related_modal_lo)
 
-    assert pp.related_title().text in pp.related_modal.text
-    assert int(pp.cart_counter_number.text) == 1
-    assert pp.related_title().text in pp.related_message.text
+    assert app.product_page.related_title().text in app.product_page.related_modal.text
+    assert int(app.product_page.cart_counter_number.text) == 1
+    assert app.product_page.related_title().text in app.product_page.related_message.text
 
 
-def test_add_multiple_product_from_related_products_block():
-    get(base_url + '/bloomfield-8774-a')
-    pp = ProductPage()
+def test_add_multiple_product_from_related_products_block(app):
+    get(product_with_related)
     qty = 5
-    pp.add_related(1, qty)
+    app.product_page.add_related(1, qty)
 
-    Wait.visible(pp.cart_counter_number_lo)
-    Wait.visible(pp.related_message_lo)
-    Wait.visible(pp.related_modal_lo)
+    Wait.visible(app.product_page.cart_counter_number_lo)
+    Wait.visible(app.product_page.related_message_lo)
+    Wait.visible(app.product_page.related_modal_lo)
 
-    assert pp.related_title().text in pp.related_modal.text
-    assert int(pp.cart_counter_number.text) == qty
-    assert pp.related_title().text in pp.related_message.text
+    assert app.product_page.related_title().text in app.product_page.related_modal.text
+    assert int(app.product_page.cart_counter_number.text) == qty
+    assert app.product_page.related_title().text in app.product_page.related_message.text
 
 
 

@@ -174,3 +174,80 @@ JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/14
 1488208640374	geckodriver::marionette	INFO	Starting browser C:\Program Files (x86)\Mozilla Firefox\firefox.exe
 1488208640379	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58904
 1488208641183	Marionette	INFO	Listening on port 58904
+1488537819846	geckodriver	INFO	Listening on 127.0.0.1:61954
+1488537821954	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.psNo1t0uroHW
+1488537821958	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488537821963	geckodriver::marionette	INFO	Connecting to Marionette on localhost:61961
+1488537822930	Marionette	INFO	Listening on port 61961
+1488537855636	geckodriver	INFO	Listening on 127.0.0.1:62018
+1488537857798	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.upIloBrW8igP
+1488537857801	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488537857806	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62024
+1488537858384	Marionette	INFO	Listening on port 62024
+1488537917179	geckodriver	INFO	Listening on 127.0.0.1:62157
+1488537919331	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.roqvlWzmjUaF
+1488537919336	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488537919340	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62163
+1488537919932	Marionette	INFO	Listening on port 62163
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1488538067467	geckodriver	INFO	Listening on 127.0.0.1:62343
+1488538069606	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.c7hGqf5vrrNY
+1488538069611	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488538069619	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62349
+1488538070227	Marionette	INFO	Listening on port 62349
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1488538133042	geckodriver	INFO	Listening on 127.0.0.1:62469
+1488538135160	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.oqkq94EW5fbF
+1488538135165	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488538135169	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62475
+1488538135754	Marionette	INFO	Listening on port 62475
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1488538169824	geckodriver	INFO	Listening on 127.0.0.1:62577
+1488538171960	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.Kofb3geQG71g
+1488538171965	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488538171969	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62583
+1488538172550	Marionette	INFO	Listening on port 62583
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1488538212767	geckodriver	INFO	Listening on 127.0.0.1:62724
+1488538214891	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.4ylpFk9t5n2P
+1488538214896	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488538214900	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62730
+1488538215477	Marionette	INFO	Listening on port 62730
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1488538383579	geckodriver	INFO	Listening on 127.0.0.1:62958
+1488538385683	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.qzSIuqSPzA1Z
+1488538385689	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488538385694	geckodriver::marionette	INFO	Connecting to Marionette on localhost:62964
+1488538386294	Marionette	INFO	Listening on port 62964
+1488550628546	geckodriver	INFO	Listening on 127.0.0.1:53397
+1488550630637	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.X0A6F7mt01Df
+1488550630643	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488550630647	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53403
+1488550631670	Marionette	INFO	Listening on port 53403
+1488550701927	geckodriver	INFO	Listening on 127.0.0.1:53525
+1488550703997	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.banRSwiqlBWi
+1488550704002	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1488550704006	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53531
+1488550704934	Marionette	INFO	Listening on port 53531
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: https://RSupply-ac.celebros.com/AutoComplete/Scripts/CelebrosAutoCompleteV3c.js
+http://requirejs.org/docs/errors.html#scripterror

@@ -4,45 +4,38 @@ from app.tools import find
 
 class SearchPage(Page):
 
-    empty_cart_link_lo = '//button[@id="empty_cart_button"]'
-    checkout_button_lo = '//input[@id="qty"]'
-    zip_code_field_lo = '//input[@id="IX1UU3A"]'
-    #item locators
-    item_qty_lo = './/input[@title="Qty"]'
-    item_title_lo = './/strong[@class="product-item-name"]/a'
+    item_lo = '//ul[@class="products-grid row"]/li[%d]'
+    item_qty_lo = './/input[@name="qty"]'
+    item_title_lo = './/div[@class="product-shop"]//a'
+    item_atc_button_lo = './/button'
 
 
     # --------------------------------  ACTIONS ------------------------------------------------------------------
-    def enter_zip(self, zip):
-        self.zip_code_field.clear()
-        self.zip_code_field.send_keys(zip)
 
+    def add_to_cart(self, n=1, qty=1):
+        if qty > 1:
+            self.item_qty(n).clear()
+            self.item_qty(n).send_keys(qty)
+            self.item_atc_button(n).click()
+        else:
+            self.item_atc_button(n).click()
 
     #-------------------------------- ITEM ELEMENTS (returns selenium object)-------------------------------------
-   #product item in cart
+    #product item in cart
     def item(self, n=1):
-        return find('//table[@id="shopping-cart-table"]/tbody/tr[%d]' % n)
+        return find(self.item_lo % n)
 
-    @property
-    def item_qty(self):
-        return self.item().find_element_by_xpath(self.item_qty_lo)
+    def item_qty(self, n=1):
+        return self.item(n).find_element_by_xpath(self.item_qty_lo)
 
-    @property
-    def item_title(self):
-        return self.item().find_element_by_xpath(self.item_title_lo)
+    def item_title(self, n=1):
+        return self.item(n).find_element_by_xpath(self.item_title_lo)
+
+    def item_atc_button(self, n=1):
+        return self.item(n).find_element_by_xpath(self.item_atc_button_lo)
 
     # -------------------------------- ELEMENTS (returns selenium object)-------------------------------------
-    @property
-    def empty_cart_link(self):
-        return find(self.empty_cart_link_lo)
 
-    @property
-    def checkout_button(self):
-        return find(self.checkout_button_lo)
-
-    @property
-    def zip_code_field(self):
-        return find(self.zip_code_field_lo)
 
 
 

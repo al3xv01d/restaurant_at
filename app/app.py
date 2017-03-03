@@ -1,9 +1,12 @@
 from config import driver
 from app.tools import get, Wait, Random
-from config import base_url
+from config import base_url, product
 from pages.product_page import ProductPage
 from pages.cart_page import CartPage
 from pages.checkout_page import CheckoutPage
+from pages.category_page import CategoryPage
+from pages.index import IndexPage
+from pages.search_page import SearchPage
 
 
 class App:
@@ -12,6 +15,9 @@ class App:
     product_page = ProductPage()
     checkout_page = CheckoutPage()
     cart_page = CartPage()
+    category_page = CategoryPage()
+    index_page = IndexPage()
+    search_page = SearchPage()
 
     def __init__(self):
         self.wd.maximize_window()
@@ -19,8 +25,8 @@ class App:
        # self.wd.set_page_load_timeout(60)
 
 
-    def order(self, product, billing_equal_shipping = True):
-        get(base_url + product)
+    def order(self, billing_equal_shipping = True):
+        get(product)
 
         self.product_page.add_to_cart()
 
