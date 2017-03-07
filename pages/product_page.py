@@ -9,8 +9,8 @@ class ProductPage(Page):
     product_title_lo = '//span[@data-ui-id="page-title-wrapper"]'
     product_img_lo = '//img[@class="fotorama__img"]'
 
-    related_product_lo = '//div[@class="b-fbt-products"]/li[%d]'
-    related_product_atc_button_lo = './/button'
+    related_lo = '//div[@class="b-fbt-products"]/li[%d]'
+    related_atc_button_lo = './/button'
     related_title_lo = './/strong/a'
     related_qty_lo = './/input[@name="qty"]'
 
@@ -27,26 +27,35 @@ class ProductPage(Page):
         else:
             self.add_to_cart_button.click()
 
-    def add_related(self, n=1, qty=1):
+    def add_related(self, qty=1, n=1):
         if qty > 1:
-            self.related_qty(n).clear()
-            self.related_qty(n).send_keys(qty)
-            self.related_atc_button(n).click()
+            self.related(n).qty.clear()
+            self.related(n).qty.send_keys(qty)
+            self.related(n).atc_button.click()
         else:
-            self.related_atc_button(n).click()
+            self.related(n).atc_button.click()
 
     # -------------------------------- RELATED PRODUCT (returns selenium object)-------------------------------------
-    def related_product(self, n=1):
-        return find(self.related_product_lo % n)
+    def related(self, n=1):
 
-    def related_title(self, n=1):
-        return self.related_product(n).find_element_by_xpath(self.related_title_lo)
+        class Related:
 
-    def related_qty(self, n=1):
-        return self.related_product(n).find_element_by_xpath(self.related_qty_lo)
+            def __init__(self, n):
+                self.related = find(ProductPage.related_lo % n)
 
-    def related_atc_button(self,n=1):
-        return self.related_product(n).find_element_by_xpath(self.related_product_atc_button_lo)
+            @property
+            def title(self):
+                return self.related.find_element_by_xpath(ProductPage.related_title_lo)
+
+            @property
+            def qty(self):
+                return self.related.find_element_by_xpath(ProductPage.related_qty_lo)
+
+            @property
+            def atc_button(self):
+                return self.related.find_element_by_xpath(ProductPage.related_atc_button_lo)
+
+        return Related(n)
 
     @property
     def related_message(self):

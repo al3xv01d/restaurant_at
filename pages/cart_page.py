@@ -12,6 +12,9 @@ class CartPage(Page):
     item_lo = '//table[@id="shopping-cart-table"]/tbody/tr[%d]'
     item_qty_lo = './/input[@title="Qty"]'
     item_title_lo = './/strong[@class="product-item-name"]/a'
+    item_price_lo = './td[@data-th="Subtotal"]//span[@class="price"]'
+
+    tax_price_lo = '//tr[@class="totals-tax"]/td/span'
 
 
     # --------------------------------  ACTIONS ------------------------------------------------------------------
@@ -22,13 +25,25 @@ class CartPage(Page):
 
     #-------------------------------- ITEM ELEMENTS (returns selenium object)-------------------------------------
     def item(self, n=1):
-        return find(self.item_lo % n)
 
-    def item_qty(self, n=1):
-        return self.item(n).find_element_by_xpath(self.item_qty_lo)
+        class Item:
 
-    def item_title(self, n=1):
-        return self.item(n).find_element_by_xpath(self.item_title_lo)
+            def __init__(self, n):
+                self.item = find(CartPage.item_lo % n)
+
+            @property
+            def title(self):
+                return self.item.find_element_by_xpath(CartPage.item_title_lo)
+
+            @property
+            def qty(self):
+                return self.item.find_element_by_xpath(CartPage.item_qty_lo)
+
+            @property
+            def price(self):
+                return self.item.find_element_by_xpath(CartPage.item_price_lo)
+
+        return Item(n)
 
     # -------------------------------- ELEMENTS (returns selenium object)-------------------------------------
     @property
@@ -43,6 +58,9 @@ class CartPage(Page):
     def checkout_button(self):
         return find(self.checkout_button_lo)
 
+    @property
+    def tax_price(self):
+        return find(self.tax_price_lo)
 
 
 

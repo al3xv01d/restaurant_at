@@ -23,9 +23,7 @@ elif browser == "ie":
 
 
 # BASE URL
-if server == 'dev':
-    base_url = 'http://dev.restaurantsupply.com/'
-elif server == 'stage':
+if server == 'stage':
     base_url = 'http://stage.restaurantsupply.com/'
 elif server == 'prod':
     base_url = 'https://restaurantsupply.com/'
