@@ -6,6 +6,7 @@ from time import sleep
 
 
 
+
 # MAKE SCREENSHOT - FUNCTIONS
 
 def init_size():
@@ -80,3 +81,16 @@ def cat_tpl_10_ms():
     get(cat_tpl_10)
     sleep(1)
     fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/12-cat_tpl_10.png')
+
+def cart_page_ms(app):
+    get(simple_product)
+    app.product_page.add_to_cart()
+    sleep(5)
+    fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/13-cart_page.png')
+
+def checkout_page_ms(app):
+    get(simple_product)
+    app.product_page.add_to_cart()
+    app.cart_page.checkout_button.click()
+    sleep(5)
+    fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/14-checkout_page_1.png')

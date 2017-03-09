@@ -1,4 +1,4 @@
-from config import browser
+from config import browser, base_url
 
 # full == driver.maximize_window()
 window_width = 768
@@ -23,25 +23,25 @@ elif window_width == 'full':
 
 #************************** LINKS ***********************
 
-index = 'https://www.restaurantsupply.com/'
+index = base_url + '/'
 
-simple_product = 'https://www.restaurantsupply.com/san-jamar-s46tbk-46-oz-wall-mounted-bulk-liquid-soap-dispenser-black-pearl'
-product_with_related = 'https://www.restaurantsupply.com/bloomfield-8774-a'
+simple_product = base_url + '/san-jamar-s46tbk-46-oz-wall-mounted-bulk-liquid-soap-dispenser-black-pearl'
+product_with_related = base_url + '/bloomfield-8774-a'
 
-dap_on_gesture = 'https://www.restaurantsupply.com/berkel-mb-3-8'
-dap_in_cart = 'https://www.restaurantsupply.com/amana-rfs18ts-medium-duty-stainless-steel-commercial-microwave-with-push-button-controls-208-230v-1800w'
-dap_before_order_confirmation = 'https://www.restaurantsupply.com/manitowoc-jc-0995'
+dap_on_gesture = base_url + '/berkel-mb-3-8'
+dap_in_cart = base_url + '/amana-rfs18ts-medium-duty-stainless-steel-commercial-microwave-with-push-button-controls-208-230v-1800w'
+dap_before_order_confirmation = base_url + '/manitowoc-jc-0995'
 
-cat_tpl_1 = 'https://www.restaurantsupply.com/best-sellers'
-cat_tpl_2 = 'https://www.restaurantsupply.com/storage-and-transport'
+cat_tpl_1 = base_url + '/best-sellers'
+cat_tpl_2 = base_url + '/storage-and-transport'
 cat_tpl_3 = ''
 cat_tpl_4 = ''
 cat_tpl_5 = ''
-cat_tpl_6 = 'https://www.restaurantsupply.com/food-preparation'
-cat_tpl_7 = 'https://www.restaurantsupply.com/everpure'
-cat_tpl_8 = 'https://www.restaurantsupply.com/best-selling-fryer-baskets'
-cat_tpl_9 = 'https://www.restaurantsupply.com/janitorial-supplies'
-cat_tpl_10 = 'https://www.restaurantsupply.com/table-mounted-stainless-steel-shelving-units'
+cat_tpl_6 = base_url + '/food-preparation'
+cat_tpl_7 = base_url + '/everpure'
+cat_tpl_8 = base_url + '/best-selling-fryer-baskets'
+cat_tpl_9 = base_url + '/janitorial-supplies'
+cat_tpl_10 = base_url + '/table-mounted-stainless-steel-shelving-units'
 
 
 

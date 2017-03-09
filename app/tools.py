@@ -143,7 +143,7 @@ def fullpage_screenshot(file):
 
 
 def set_site_width(width):
-    driver.set_window_size(width, 768)
+    driver.set_window_size(width, 900)
     real_width = driver.execute_script('return (window.outerWidth - window.innerWidth) + window.outerWidth')
-    driver.set_window_size(real_width, 768)
+    driver.set_window_size(real_width, 900)
 

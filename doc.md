@@ -6,9 +6,6 @@ app fixture == selenium webdriver + destroy method. Maybe i will ad methods for 
 **Acronyms**
 
 `atc` - add to cart<br>
-`f` - from <br>
-`mp` - main page
-`pp` - product page
 
 
 **Page Objects**
@@ -21,3 +18,5 @@ app.page_obj.element<br>
 **page-obj** - page object<br>
 **item(x)** - page object method - returns some element with many child elements.<br>
 **element** - simple element
+
+function_name + **_ms** - this functions make screenshots

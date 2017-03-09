@@ -26,7 +26,7 @@ def app(request):
     request.addfinalizer(fin)
     return browser
 
-#********* Uncomment if is_logged = TRUE **************
+#********* DO NOT use it if is_logged = TRUE **************
 @pytest.fixture(scope="function", autouse=True)
 def delete_cookies(request):
 
