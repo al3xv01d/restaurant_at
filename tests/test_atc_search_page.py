@@ -4,7 +4,7 @@ from config import base_url
 def test_add_one_product_to_cart(app):
     get(base_url)
 
-    app.search_page.find('star')
+    app.search_page.find('empura')
     title = app.search_page.item().title.get_attribute('title')
     app.search_page.add_to_cart()
 
@@ -18,7 +18,7 @@ def test_add_one_product_to_cart(app):
 def test_add_multiple_product_to_cart(app):
     get(base_url)
 
-    app.search_page.find('star')
+    app.search_page.find('empura')
     title = app.search_page.item().title.get_attribute('title')
     qty = 15
     app.search_page.add_to_cart(qty)

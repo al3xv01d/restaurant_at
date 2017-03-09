@@ -7,6 +7,7 @@ from PIL import Image
 import time
 import os
 
+
 def get(url):
     driver.get(url)
 
@@ -79,9 +80,9 @@ def fullpage_screenshot(file):
 
         print("Starting chrome full page screenshot workaround ...")
 
-        total_width = driver.execute_script("return document.body.offsetWidth")
+        total_width = driver.execute_script("return window.innerWidth")
         total_height = driver.execute_script("return document.body.parentNode.scrollHeight")
-        viewport_width = driver.execute_script("return document.body.clientWidth")
+        viewport_width = driver.execute_script("return window.outerWidth")
         viewport_height = driver.execute_script("return window.innerHeight")
         print("Total: ({0}, {1}), Viewport: ({2},{3})".format(total_width, total_height,viewport_width,viewport_height))
         rectangles = []
@@ -139,3 +140,10 @@ def fullpage_screenshot(file):
         stitched_image.save(file)
         print("Finishing chrome full page screenshot workaround...")
         return True
+
+
+def set_site_width(width):
+    driver.set_window_size(width, 768)
+    real_width = driver.execute_script('return (window.outerWidth - window.innerWidth) + window.outerWidth')
+    driver.set_window_size(real_width, 768)
+

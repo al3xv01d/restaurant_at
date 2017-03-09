@@ -251,3 +251,301 @@ JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/14
 1488550704934	Marionette	INFO	Listening on port 53531
 JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: https://RSupply-ac.celebros.com/AutoComplete/Scripts/CelebrosAutoCompleteV3c.js
 http://requirejs.org/docs/errors.html#scripterror
+1489055496398	geckodriver	INFO	Listening on 127.0.0.1:14478
+1489055496477	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.dz6h5C4o9DVu
+1489055496481	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1489055496485	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14483
+1489055497468	Marionette	INFO	Listening on port 14483
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1489055575178	geckodriver	INFO	Listening on 127.0.0.1:14902
+1489055575764	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.y8MwXmJP9Ugz
+1489055575767	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1489055575772	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14906
+1489055576751	Marionette	INFO	Listening on port 14906
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1489055648310	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489055648312	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1489055685039	geckodriver	INFO	Listening on 127.0.0.1:15417
+1489055685117	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.OZy0OCIryyuU
+1489055685120	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1489055685124	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15421
+1489055685699	Marionette	INFO	Listening on port 15421
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1489055735220	geckodriver	INFO	Listening on 127.0.0.1:15781
+1489055735291	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.QVTdmMboTni1
+1489055735296	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1489055735300	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15785
+1489055735871	Marionette	INFO	Listening on port 15785
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+1489055831012	geckodriver	INFO	Listening on 127.0.0.1:16083
+1489055831076	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.2uZ4rn5ZWgwR
+1489055831079	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1489055831084	geckodriver::marionette	INFO	Connecting to Marionette on localhost:16087
+1489055831725	Marionette	INFO	Listening on port 16087
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 16: Error: Script error for: moment
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
