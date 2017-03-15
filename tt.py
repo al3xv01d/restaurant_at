@@ -1,5 +1,6 @@
 # from pprint import pprint
-# from app.tools import driver, Wait, Random, fullpage_screenshot
+# from app.tools import  Wait, get, Random, fullpage_screenshot, set_site_width
+# from config import driver
 # from pages.product_page import ProductPage
 # from pages.category_page import CategoryPage
 # from pages.cart_page import CartPage
@@ -12,8 +13,8 @@
 
 from time import sleep
 import pp
-
-
+from app import screenshoter_config
+from screenshoots.make_screen import *
 #driver.get('https://www.restaurantsupply.com/bloomfield-commercial-coffee-makers-brewers-pourover')
 # cat = CategoryPage()
 # cat.add_to_cart()
@@ -23,6 +24,4 @@ import pp
 # Wait.is_invisible(cp.full_page_loader_lo)
 
 
-pp.test_var = 15
-
-print(pp.test_var)
+print(Resolution(768).width)

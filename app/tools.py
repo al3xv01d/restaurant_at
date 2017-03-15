@@ -42,6 +42,11 @@ class Wait():
             EC.visibility_of_element_located((By.XPATH, element))
         )
 
+    @staticmethod
+    def staleness_of(element):
+        WebDriverWait(driver, 60).until(
+            EC.staleness_of((By.XPATH, element))
+        )
 
 #RANDOM
 

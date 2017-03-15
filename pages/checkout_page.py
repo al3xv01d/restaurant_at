@@ -51,41 +51,7 @@ class CheckoutPage(Page):
 
     def fill_order_forms(self, billing_equal_shipping=True):
 
-        #*********************************SHIPPING PAGE ******************
-
-        self.shipping.email.clear()
-        self.shipping.email.send_keys(Random.email())
-
-        self.shipping.name.clear()
-        self.shipping.name.send_keys(Random.name())
-
-        self.shipping.company.clear()
-        self.shipping.company.send_keys(Random.name())
-
-        self.shipping.last_name.clear()
-        self.shipping.last_name.send_keys(Random.name())
-
-        self.shipping.address_1.clear()
-        self.shipping.address_1.send_keys(Random.name())
-
-        self.shipping.address_2.clear()
-        self.shipping.address_2.send_keys(Random.name())
-
-        self.shipping.zip.clear()
-        self.shipping.zip.send_keys(20047)
-
-        Wait.visible(self.full_page_loader_lo)
-        Wait.invisible(self.full_page_loader_lo)
-
-        self.shipping.phone.clear()
-        self.shipping.phone.send_keys(Random.phone())
-
-        self.shipping.next_button.click()
-
-        Wait.visible(self.full_page_loader_lo)
-        Wait.invisible(self.full_page_loader_lo)
-
-        #****************************************BILLING PAGE****************************
+    #****************************************BILLING PAGE****************************
 
         self.billing.credit_cart_method.click()
 
@@ -119,6 +85,42 @@ class CheckoutPage(Page):
 
             self.billing.phone.clear()
             self.billing.phone.send_keys(Random.phone())
+
+
+    def fill_shipping_form(self):
+        # *********************************SHIPPING PAGE ******************
+
+        self.shipping.email.clear()
+        self.shipping.email.send_keys(Random.email())
+
+        self.shipping.name.clear()
+        self.shipping.name.send_keys(Random.name())
+
+        self.shipping.company.clear()
+        self.shipping.company.send_keys(Random.name())
+
+        self.shipping.last_name.clear()
+        self.shipping.last_name.send_keys(Random.name())
+
+        self.shipping.address_1.clear()
+        self.shipping.address_1.send_keys(Random.name())
+
+        self.shipping.address_2.clear()
+        self.shipping.address_2.send_keys(Random.name())
+
+        self.shipping.zip.clear()
+        self.shipping.zip.send_keys(20047)
+
+        Wait.visible(self.full_page_loader_lo)
+        Wait.invisible(self.full_page_loader_lo)
+
+        self.shipping.phone.clear()
+        self.shipping.phone.send_keys(Random.phone())
+
+        self.shipping.next_button.click()
+
+        Wait.visible(self.full_page_loader_lo)
+        Wait.invisible(self.full_page_loader_lo)
 
     def fill_cc_form(self):
         self.wd.switch_to_frame('braintree-hosted-field-number')

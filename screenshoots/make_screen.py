@@ -1,17 +1,15 @@
 from app.screenshoter_config import *
-from app.tools import fullpage_screenshot, get, set_site_width
-from app.screenshoter_config import browser_catalog
+from app.tools import fullpage_screenshot, get, set_site_width,Wait
 from time import sleep
 
-
-
-
+resolution_catalog = ''
 
 # MAKE SCREENSHOT - FUNCTIONS
 
-def init_size():
+def init_size(window_width):
     set_site_width(window_width)
-
+    global resolution_catalog
+    resolution_catalog = 'w' + str(window_width)
 
 def index_ms():
     get(index)
@@ -88,9 +86,27 @@ def cart_page_ms(app):
     sleep(5)
     fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/13-cart_page.png')
 
-def checkout_page_ms(app):
+def checkout_page_1_ms(app):
     get(simple_product)
     app.product_page.add_to_cart()
     app.cart_page.checkout_button.click()
-    sleep(5)
+    sleep(2)
     fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/14-checkout_page_1.png')
+
+def checkout_page_2_ms(app, billing_equal_shipping=False):
+    get(simple_product)
+    app.product_page.add_to_cart()
+
+    Wait.invisible(app.cart_page.full_page_loader_lo)
+
+    app.cart_page.enter_zip(10001)
+
+    Wait.invisible(app.cart_page.full_page_loader_lo)
+
+    app.cart_page.checkout_button.click()
+
+    Wait.invisible(app.cart_page.full_page_loader_lo)
+
+    app.checkout_page.fill_order_forms(billing_equal_shipping)
+
+    fullpage_screenshot(browser_catalog + '/' + resolution_catalog + '/15-billing_page.png')

@@ -1,12 +1,1 @@
-{
-  "test_atc_category_page.py::test_add_multiple_product_to_cart": true,
-  "test_atc_category_page.py::test_add_one_product_to_cart": true,
-  "test_atc_product_page.py::test_add_multiple_product_to_cart": true,
-  "test_atc_product_page.py::test_add_one_product_to_cart": true,
-  "test_atc_relates_products.py::test_add_multiple_product_from_related_products_block": true,
-  "test_atc_relates_products.py::test_add_one_product_from_related_products_block": true,
-  "test_atc_search_page.py::test_add_multiple_product_to_cart": true,
-  "test_atc_search_page.py::test_add_one_product_to_cart": true,
-  "test_order.py::test_order_with_invalid_cc": true,
-  "test_tax_is_working.py::test_add_one_product_to_cart": true
-}
+{}
