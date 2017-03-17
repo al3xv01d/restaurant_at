@@ -41,7 +41,8 @@ class App:
 
         Wait.invisible(self.cart_page.full_page_loader_lo)
 
-        self.checkout_page.fill_order_forms()
+        self.checkout_page.fill_shipping_form()
+        self.checkout_page.fill_billing_form()
         self.checkout_page.fill_cc_form()
 
         self.checkout_page.billing.place_order_button.click()

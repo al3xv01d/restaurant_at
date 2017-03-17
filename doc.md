@@ -20,3 +20,12 @@ app.page_obj.element<br>
 **element** - simple element
 
 function_name + **_ms** - this functions make screenshots
+
+#Tools
+
+`get('http://ya.ru')`<br>
+`find('xpath locator')`<br>
+class Wait<br>
+class Random<br>
+`fullpage_screenshot('file_name.png')`<br>
+`set_site_width(768)`<br>

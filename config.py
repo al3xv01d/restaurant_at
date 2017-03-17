@@ -9,7 +9,7 @@ password = 'Testusa1'
 admin_user = ''
 admin_password = ''
 
-is_logged = False
+is_logged = True
 
 #----------------------------
 

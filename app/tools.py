@@ -78,6 +78,12 @@ class Random():
             phone += choice(num)
         return phone
 
+    def number(n):
+        numbers = '0123456789'
+        num = ''
+        for i in range(0, n):
+            num += choice(numbers)
+        return num
 #******************* FULL PAGE SCREENSHOT ***********************************
 
 
