@@ -29,3 +29,9 @@ class Wait<br>
 class Random<br>
 `fullpage_screenshot('file_name.png')`<br>
 `set_site_width(768)`<br>
+
+
+**In first test in test_screenshooter.py must be this to functions**
+
+`init_size(1920)`<br>
+`make_folder_for_todays_date()`

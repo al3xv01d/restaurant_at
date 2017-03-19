@@ -13,11 +13,15 @@
 #
 # test_var = ''
 
-import datetime
-import os
-from config import browser
+from screenshoots.ScreenshooterClass import Screenshooter
 
-date = datetime.date.today()
 
-print (os.getcwd())
-os.mkdir('screenshoots/' +browser + '/%s' % date)
+# Screenshooter.generate_folders()
+# Screenshooter.init_size(768)
+# print(Screenshooter.resolution_catalog)
+# Screenshooter.index()
+
+def hui():
+    pass
+
+print(hui.__name__)

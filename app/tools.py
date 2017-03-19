@@ -25,7 +25,7 @@ def hover(element_to_hover):
 class Wait():
 
     @staticmethod
-    def is_clickable(self, element):
+    def is_clickable(element):
         WebDriverWait(driver, 60).until(
             EC.element_to_be_clickable((By.XPATH, element))
         )

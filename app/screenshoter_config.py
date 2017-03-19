@@ -1,15 +1,5 @@
-from config import browser, base_url
+from config import base_url
 
-
-browser_catalog = ''
-if browser == 'chrome':
-    browser_catalog = 'chrome'
-elif browser == 'firefox':
-    browser_catalog = 'firefox'
-
-
-
-#************************** LINKS ***********************
 
 index = base_url + '/'
 
