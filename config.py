@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = 'chrome'
+browser = 'firefox'
 server = 'prod'
 
 user = 'altest2@yandex.com'
@@ -30,9 +30,9 @@ elif browser == "ie":
 
 # BASE URL
 if server == 'stage':
-    base_url = 'http://stage.restaurantsupply.com/'
+    base_url = 'http://stage.restaurantsupply.com'
 elif server == 'prod':
-    base_url = 'https://restaurantsupply.com/'
+    base_url = 'https://restaurantsupply.com'
 
 product = base_url + '/bloomfield-8543-d2'
 product_with_related = base_url + '/bloomfield-8543-d2'

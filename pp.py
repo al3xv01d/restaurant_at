@@ -12,16 +12,12 @@
 #
 #
 # test_var = ''
-
+from app.screenshoter_config import *
 from screenshoots.ScreenshooterClass import Screenshooter
 
 
-# Screenshooter.generate_folders()
-# Screenshooter.init_size(768)
-# print(Screenshooter.resolution_catalog)
-# Screenshooter.index()
+Screenshooter.generate_folders()
+Screenshooter.init_size(1920)
 
-def hui():
-    pass
 
-print(hui.__name__)
+Screenshooter.screen_all()

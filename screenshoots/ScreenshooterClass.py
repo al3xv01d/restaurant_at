@@ -37,18 +37,39 @@ class Screenshooter:
     def make_screenshot(url):
         get(url)
         sleep(1)
-        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + Screenshooter.img_name(url))
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + Screenshooter.img_name(url))
+
+    @staticmethod
+    def screen_all():
+        Screenshooter.make_screenshot(index)
+        Screenshooter.make_screenshot(simple_product)
+        Screenshooter.make_screenshot(product_with_related)
+        Screenshooter.make_screenshot(product_video)
+        Screenshooter.make_screenshot(dap_on_gesture)
+        Screenshooter.make_screenshot(dap_in_cart)
+        Screenshooter.make_screenshot(dap_before_order_confirmation)
+        Screenshooter.make_screenshot(cat_tpl_1)
+        Screenshooter.make_screenshot(cat_tpl_2)
+        Screenshooter.make_screenshot(cat_tpl_6)
+        Screenshooter.make_screenshot(cat_tpl_7)
+        Screenshooter.make_screenshot(cat_tpl_8)
+        Screenshooter.make_screenshot(cat_tpl_9)
+        Screenshooter.make_screenshot(cat_tpl_10)
+        # Screenshooter.shipping_page(app)
+        # Screenshooter.billing_page(app)
 
     @staticmethod
     def img_name(url):
 
-        if url == base_url:
+        if url == base_url + '/':
             return 'index.png'
 
         if 'san-jamar-s46tbk-46-oz-wall-mounted-bulk-liquid-soap-dispenser-black-pearl' in url:
             return 'simple_product.png'
         if 'bloomfield-8774-a' in url:
             return 'product_with_related_products.png'
+        if 'manitowoc-iy-0304a' in url:
+            return 'product_with_video.png'
 
         if '/berkel-mb-3-8' in url:
             return 'dap_on_gesture.png'
@@ -84,7 +105,7 @@ class Screenshooter:
 
         app.cart_page.checkout_button.click()
         sleep(2)
-        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + 'shipping-page.png')
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'shipping-page.png')
 
     @staticmethod
     def billing_page(app, billing_equal_shipping=False):
@@ -104,4 +125,4 @@ class Screenshooter:
 
         app.checkout_page.fill_order_forms(billing_equal_shipping)
 
-        fullpage_screenshot(browser + '/' + '/' + str(todays_date) + '/' + resolution_catalog + '/15-billing_page.png')
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'shipping-page.png')
