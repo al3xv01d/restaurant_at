@@ -12,8 +12,7 @@
 #
 #
 # test_var = ''
-from app.screenshoter_config import *
-from screenshoots.ScreenshooterClass import Screenshooter
+from app.ScreenshooterClass import Screenshooter
 
 
 Screenshooter.generate_folders()

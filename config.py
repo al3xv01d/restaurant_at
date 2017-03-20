@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = 'firefox'
+browser = 'chrome'
 server = 'prod'
 
 user = 'altest2@yandex.com'

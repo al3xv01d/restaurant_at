@@ -7,6 +7,7 @@ from pages.checkout_page import CheckoutPage
 from pages.category_page import CategoryPage
 from pages.index import IndexPage
 from pages.search_page import SearchPage
+from app.ScreenshooterClass import Screenshooter
 
 
 class App:
@@ -18,6 +19,7 @@ class App:
     category_page = CategoryPage()
     index_page = IndexPage()
     search_page = SearchPage()
+    screenshooter = Screenshooter()
 
     def __init__(self):
         self.wd.maximize_window()
