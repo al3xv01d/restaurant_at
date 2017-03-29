@@ -145,7 +145,7 @@ class Screenshooter:
         app.product_page.add_related(2, 3)
 
         app.product_page.add_to_cart()
-
+        Wait.visible(app.cart_page.checkout_button_lo) # for firefox, otherwise don't work
         Wait.invisible(app.cart_page.full_page_loader_lo)
         sleep(0.5)
         fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'cart-page.png')

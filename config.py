@@ -1,6 +1,6 @@
 from selenium import webdriver
 
-browser = 'chrome'
+browser = 'firefox'
 server = 'prod'
 
 user = 'altest2@yandex.com'
@@ -9,7 +9,7 @@ password = 'Testusa1'
 admin_user = ''
 admin_password = ''
 
-is_logged = False
+is_logged = True
 
 #----------------------------
 

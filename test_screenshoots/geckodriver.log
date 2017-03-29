@@ -18,3 +18,46 @@
 1490180988845	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
 1490180988869	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15121
 1490180990162	Marionette	INFO	Listening on port 15121
+1490775986092	geckodriver	INFO	Listening on 127.0.0.1:11656
+1490775986161	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.upwSpBKPK6CY
+1490775986165	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490775986169	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11660
+1490775986757	Marionette	INFO	Listening on port 11660
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+1490776580644	geckodriver	INFO	Listening on 127.0.0.1:14139
+1490776581189	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.Nf03rXuXGmBp
+1490776581193	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490776581197	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14143
+1490776582179	Marionette	INFO	Listening on port 14143
+1490776722596	geckodriver	INFO	Listening on 127.0.0.1:14529
+1490776722662	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.5bW5wMVk7z2T
+1490776722666	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490776722671	geckodriver::marionette	INFO	Connecting to Marionette on localhost:14533
+1490776723264	Marionette	INFO	Listening on port 14533
+1490777083298	geckodriver	INFO	Listening on 127.0.0.1:15058
+1490777083364	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.1J7bm7TUmtPR
+1490777083371	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490777083375	geckodriver::marionette	INFO	Connecting to Marionette on localhost:15062
+1490777083977	Marionette	INFO	Listening on port 15062
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement

@@ -318,3 +318,18 @@ exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> re
 1490701218489	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
 1490701218493	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10143
 1490701219476	Marionette	INFO	Listening on port 10143
+1490775686982	geckodriver	INFO	Listening on 127.0.0.1:10992
+1490775687501	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.QtfWDdzSFzfH
+1490775687506	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490775687511	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10996
+1490775688575	Marionette	INFO	Listening on port 10996
+1490775774887	geckodriver	INFO	Listening on 127.0.0.1:11201
+1490775775453	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.ATvu8rjiuGYS
+1490775775458	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490775775462	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11205
+1490775776059	Marionette	INFO	Listening on port 11205
+1490775905030	geckodriver	INFO	Listening on 127.0.0.1:11473
+1490775905626	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.tXSjFO6WWKm4
+1490775905631	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490775905635	geckodriver::marionette	INFO	Connecting to Marionette on localhost:11477
+1490775906218	Marionette	INFO	Listening on port 11477

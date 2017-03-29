@@ -21,10 +21,6 @@ app = App()
 
 
 app.wd.get('https://www.restaurantsupply.com/bloomfield-8543-d2')
-
-# app.screenshooter.cart_page(app)
-
-app.product_page.add_related(1,2)
-app.product_page.add_related(2,3)
-
-app.product_page.add_to_cart()
+time.sleep(1)
+app.wd.switch_to_frame('livechat-compact-view')
+app.wd.execute_script("document.getElementById('livechat-compact-view').style.display = 'none'")

@@ -89,6 +89,11 @@ class Random():
 
 def fullpage_screenshot(file):
 
+        try:
+            driver.execute_script("document.getElementById('livechat-compact-view').style.display = 'none'")
+        except:
+            pass
+
         print("Starting chrome full page screenshot workaround ...")
 
         total_width = driver.execute_script("return window.innerWidth")
@@ -149,7 +154,8 @@ def fullpage_screenshot(file):
             previous = rectangle
 
         stitched_image.save(file)
-        print("Finishing chrome full page screenshot workaround...")
+        #print("Finishing chrome full page screenshot workaround...")
+
         return True
 
 
