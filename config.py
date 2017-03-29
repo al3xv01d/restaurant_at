@@ -34,6 +34,7 @@ if server == 'stage':
 elif server == 'prod':
     base_url = 'https://restaurantsupply.com'
 
+
 product = base_url + '/bloomfield-8543-d2'
 product_with_related = base_url + '/bloomfield-8543-d2'
 category = base_url + '/bloomfield-commercial-coffee-makers-brewers-pourover'

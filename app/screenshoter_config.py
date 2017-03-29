@@ -23,5 +23,7 @@ cat_tpl_9 = base_url + '/janitorial-supplies'
 cat_tpl_10 = base_url + '/table-mounted-stainless-steel-shelving-units'
 
 
+products_grid_view = base_url + '/amana-microwave-ovens'
+
 
 

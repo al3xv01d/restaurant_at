@@ -40,7 +40,7 @@ class Screenshooter:
         fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + Screenshooter.img_name(url))
 
     @staticmethod
-    def screen_all():
+    def screen_all(app):
         Screenshooter.make_screenshot(index)
         Screenshooter.make_screenshot(simple_product)
         Screenshooter.make_screenshot(product_with_related)
@@ -55,8 +55,9 @@ class Screenshooter:
         Screenshooter.make_screenshot(cat_tpl_8)
         Screenshooter.make_screenshot(cat_tpl_9)
         Screenshooter.make_screenshot(cat_tpl_10)
-        # Screenshooter.shipping_page(app)
-        # Screenshooter.billing_page(app)
+        Screenshooter.shipping_page(app)
+        Screenshooter.billing_page(app)
+        Screenshooter.cart_page(app)
 
     @staticmethod
     def img_name(url):
@@ -93,6 +94,9 @@ class Screenshooter:
         if '/table-mounted-stainless-steel-shelving-units' in url:
             return 'category_template_10.png'
 
+        if '/amana-microwave-ovens' in url:
+            return 'category_products_grid.png'
+
     #Screenshoot methods for pages which needs some interaction
 
     @staticmethod
@@ -104,7 +108,11 @@ class Screenshooter:
         Wait.is_clickable(app.cart_page.checkout_button_lo)
 
         app.cart_page.checkout_button.click()
-        sleep(2)
+
+        Wait.visible(app.cart_page.full_page_loader_lo)
+        Wait.invisible(app.cart_page.full_page_loader_lo)
+
+        sleep(0.5)
         fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'shipping-page.png')
 
     @staticmethod
@@ -112,10 +120,9 @@ class Screenshooter:
         get(simple_product)
         app.product_page.add_to_cart()
 
-        Wait.visible(app.cart_page.full_page_loader_lo)
         Wait.invisible(app.cart_page.full_page_loader_lo)
 
-        # app.cart_page.enter_zip(10001)
+        app.cart_page.enter_zip(10001)
 
         Wait.invisible(app.cart_page.full_page_loader_lo)
 
@@ -123,6 +130,22 @@ class Screenshooter:
 
         Wait.invisible(app.cart_page.full_page_loader_lo)
 
-        app.checkout_page.fill_order_forms(billing_equal_shipping)
+        app.checkout_page.fill_shipping_form()
+        app.checkout_page.billing.credit_cart_method.click()
 
-        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'shipping-page.png')
+        Wait.invisible(app.cart_page.full_page_loader_lo)
+        sleep(0.5)
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'billing-page.png')
+
+    @staticmethod
+    def cart_page(app):
+        get(product_with_related)
+
+        app.product_page.add_related(1, 2)
+        app.product_page.add_related(2, 3)
+
+        app.product_page.add_to_cart()
+
+        Wait.invisible(app.cart_page.full_page_loader_lo)
+        sleep(0.5)
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + 'cart-page.png')

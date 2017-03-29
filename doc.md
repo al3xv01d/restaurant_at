@@ -1,7 +1,7 @@
 `wd` == WebDriver<br>
 **Use only xpath for locate elements**<br>
 
-app fixture == selenium webdriver + destroy method. Maybe i will ad methods for session or tabs 
+App() fixture == selenium webdriver + destroy method + all Page objects + Screenshooter.
 
 **Acronyms**
 
@@ -24,14 +24,14 @@ function_name + **_ms** - this functions make screenshots
 #Tools
 
 `get('http://ya.ru')`<br>
-`find('xpath locator')`<br>
+`find('xpath locator')` - returns selenium webelement  <br>
 class Wait<br>
 class Random<br>
 `fullpage_screenshot('file_name.png')`<br>
 `set_site_width(768)`<br>
 
 
-**In first test in test_screenshooter.py must be this to functions**
+**In first test in test_screenshooter.py must be this two functions**
 
-`init_size(1920)`<br>
-`make_folder_for_todays_date()`
+`app.screenshooter.generate_folders()`<br>
+`app.screenshooter.init_size(1920)`

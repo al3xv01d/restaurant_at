@@ -1,6 +1,6 @@
 import pytest
 from app.app import App
-from config import is_logged, base_url
+from config import is_logged, base_url, server
 from app.tools import get, Wait
 from time import sleep
 
@@ -14,6 +14,9 @@ def app(request):
 
     if browser is None:
         browser = App()
+
+    if server == 'stage':
+        browser.wd.get('http://gomage777:gomage777@stage.restaurantsupply.com')
 
     if is_logged == True:
         get(base_url)

@@ -54,37 +54,39 @@ class CheckoutPage(Page):
 
     def fill_shipping_form(self):
         if is_logged == True:
-            self.shipping.shipping_ship_here_button().click()
-        self.shipping.email.clear()
-        self.shipping.email.send_keys(Random.email())
+            #self.shipping.shipping_ship_here_button().click()
+            self.shipping.next_button.click()
+        else:
+            self.shipping.email.clear()
+            self.shipping.email.send_keys(Random.email())
 
-        self.shipping.name.clear()
-        self.shipping.name.send_keys(Random.name())
+            self.shipping.name.clear()
+            self.shipping.name.send_keys(Random.name())
 
-        self.shipping.company.clear()
-        self.shipping.company.send_keys(Random.name())
+            self.shipping.company.clear()
+            self.shipping.company.send_keys(Random.name())
 
-        self.shipping.last_name.clear()
-        self.shipping.last_name.send_keys(Random.name())
+            self.shipping.last_name.clear()
+            self.shipping.last_name.send_keys(Random.name())
 
-        self.shipping.address_1.clear()
-        self.shipping.address_1.send_keys(Random.name())
+            self.shipping.address_1.clear()
+            self.shipping.address_1.send_keys(Random.name())
 
-        self.shipping.address_2.clear()
-        self.shipping.address_2.send_keys(Random.name())
+            self.shipping.address_2.clear()
+            self.shipping.address_2.send_keys(Random.name())
 
-        self.shipping.zip.clear()
-        self.shipping.zip.send_keys(20047)
+            self.shipping.zip.clear()
+            self.shipping.zip.send_keys(20047)
 
-        Wait.visible(self.full_page_loader_lo)
-        Wait.invisible(self.full_page_loader_lo)
+            Wait.visible(self.full_page_loader_lo)
+            Wait.invisible(self.full_page_loader_lo)
 
-        self.fill_phone()
+            self.fill_phone()
 
-        self.shipping.next_button.click()
+            self.shipping.next_button.click()
 
-        Wait.visible(self.full_page_loader_lo)
-        Wait.invisible(self.full_page_loader_lo)
+            Wait.visible(self.full_page_loader_lo)
+            Wait.invisible(self.full_page_loader_lo)
 
     def fill_billing_form(self, billing_equal_shipping=True):
 

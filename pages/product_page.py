@@ -27,7 +27,7 @@ class ProductPage(Page):
         else:
             self.add_to_cart_button.click()
 
-    def add_related(self, qty=1, n=1):
+    def add_related(self, n=1, qty=1):
         if qty > 1:
             self.related(n).qty.clear()
             self.related(n).qty.send_keys(qty)

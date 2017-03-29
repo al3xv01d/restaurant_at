@@ -51,5 +51,5 @@ Temporary Items
 .idea/modules.xml
 .idea/_test.iml
 
-/test_screenshoots/*
-!/test_screenshoots/test_screenshoter.py
+/test_screenshoots/.cache
+

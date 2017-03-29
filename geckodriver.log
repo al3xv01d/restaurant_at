@@ -1,0 +1,320 @@
+1490106022714	geckodriver	INFO	Listening on 127.0.0.1:2787
+1490106023272	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.tsUgyLqOFOes
+1490106023276	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490106023284	geckodriver::marionette	INFO	Connecting to Marionette on localhost:2791
+1490106024619	Marionette	INFO	Listening on port 2791
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/, line 29: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/, line 77: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/frontend/GoMage/restaurantsupply/en_US/requirejs-config.js, line 48: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 35: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 135: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 695: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1154: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1673: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1772: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/, line 1970: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/_requirejs/adminhtml/Magento/backend/en_US/requirejs-config.js, line 16: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 39: TypeError: require.config is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 87: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 347: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 392: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 465: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 520: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/restaura_admin/admin/dashboard/, line 575: TypeError: require is not a function
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: knockoutjs/knockout-repeat
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: knockoutjs/knockout-fast-foreach
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/template/observable_source
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/template/renderer
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/resizable
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/i18n
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/scope
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/range
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/mage-init
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/keyboard
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/optgroup
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/after-render
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/autoselect
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/datepicker
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/outer_click
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/fadeVisible
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/collapsible
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/staticChecked
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/simple-checked
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: mage/utils/wrapper
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/core/events
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: es6-collections
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/bind-html
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: Magento_Ui/js/lib/knockout/bindings/tooltip
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: http://uitemplatev3.celebros.com/uitemplate/Scripts/jquery-ui-1.8.13-Celebros.min.js
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/requirejs/require.js, line 166: Error: Script error for: mage/url
+http://requirejs.org/docs/errors.html#scripterror
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Customer/js/customer-data.js, line 86: Error: [object Object]
+JavaScript error: , line 0: uncaught exception: [object ProgressEvent]
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Customer/js/customer-data.js, line 86: Error: [object Object]
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Banner/js/model/banner.js, line 59: Error: [object Object]
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Checkout/js/model/error-processor.js, line 19: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js, line 2: unreachable code after return statement
+JavaScript warning: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 2: unreachable code after return statement
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Customer/js/customer-data.js, line 86: Error: [object Object]
+JavaScript error: http://dev.restaurantsupply.com/pub/static/frontend/GoMage/restaurantsupply/en_US/Magento_Banner/js/model/banner.js, line 59: Error: [object Object]
+1490186721071	geckodriver	INFO	Listening on 127.0.0.1:22350
+1490186721598	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.MRKhMwOXMpcN
+1490186721602	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490186721606	geckodriver::marionette	INFO	Connecting to Marionette on localhost:22354
+1490186722863	Marionette	INFO	Listening on port 22354
+JavaScript error: https://hwsfp35778.i.lithium.com/t5/scripts/9E0CB9D8A980F2404877847628B417B2/lia-scripts-common-min.js, line 1008: NS_ERROR_NOT_INITIALIZED: 
+1490186764840	geckodriver	INFO	Listening on 127.0.0.1:22445
+1490186765399	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.cgo7yEYpcVZ5
+1490186765404	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490186765408	geckodriver::marionette	INFO	Connecting to Marionette on localhost:22449
+1490186766003	Marionette	INFO	Listening on port 22449
+1490699591852	geckodriver	INFO	Listening on 127.0.0.1:9510
+1490699592421	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.NYI6FMLOFgH4
+1490699592425	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490699592440	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9514
+1490699593659	Marionette	INFO	Listening on port 9514
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+*************************
+A coding exception was thrown in a Promise rejection callback.
+See https://developer.mozilla.org/Mozilla/JavaScript_code_modules/Promise.jsm/Promise
+
+Full message: TypeError: this.browserForTab is undefined
+Full stack: hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+*************************
+Marionette threw an error: TypeError: this.browserForTab is undefined
+hasRemotenessChange@chrome://marionette/content/browser.js:233:9
+executeWhenReady@chrome://marionette/content/browser.js:264:9
+GeckoDriver.prototype.sendAsync@chrome://marionette/content/driver.js:218:5
+send/<@chrome://marionette/content/proxy.js:138:7
+send@chrome://marionette/content/proxy.js:105:12
+ownPriorityGetterTrap.get/<@chrome://marionette/content/proxy.js:24:25
+GeckoDriver.prototype.findElement@chrome://marionette/content/driver.js:1691:31
+TaskImpl_run@resource://gre/modules/Task.jsm:319:40
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+TaskImpl_handleResultValue@resource://gre/modules/Task.jsm:388:16
+TaskImpl_run@resource://gre/modules/Task.jsm:327:13
+TaskImpl@resource://gre/modules/Task.jsm:280:3
+createAsyncFunction/asyncFunction@resource://gre/modules/Task.jsm:254:14
+Task_spawn@resource://gre/modules/Task.jsm:168:12
+Dispatcher.prototype.execute@chrome://marionette/content/dispatcher.js:117:13
+Dispatcher.prototype.onPacket@chrome://marionette/content/dispatcher.js:88:5
+DebuggerTransport.prototype._onJSONObjectReady/<@chrome://marionette/content/server.js -> resource://devtools/shared/transport/transport.js:482:11
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+
+1490699876349	geckodriver	INFO	Listening on 127.0.0.1:9722
+1490699876935	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.8jb19H5nkKSC
+1490699876938	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490699876942	geckodriver::marionette	INFO	Connecting to Marionette on localhost:9726
+1490699877555	Marionette	INFO	Listening on port 9726
+1490701217934	geckodriver	INFO	Listening on 127.0.0.1:10139
+1490701218484	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.wdX9iIecaPEI
+1490701218489	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1490701218493	geckodriver::marionette	INFO	Connecting to Marionette on localhost:10143
+1490701219476	Marionette	INFO	Listening on port 10143
