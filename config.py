@@ -1,13 +1,13 @@
 from selenium import webdriver
 
-browser = 'firefox'
-server = 'prod'
+browser = 'chrome'
+server = 'dev'
 
 user = 'altest2@yandex.com'
 password = 'Testusa1'
 
-admin_user = ''
-admin_password = ''
+admin_user = 'akh'
+admin_password = '34-gtshKF5sgD2'
 
 is_logged = True
 
@@ -33,6 +33,8 @@ if server == 'stage':
     base_url = 'http://stage.restaurantsupply.com'
 elif server == 'prod':
     base_url = 'https://restaurantsupply.com'
+if server == 'dev':
+    base_url = 'http://dev.restaurantsupply.com'
 
 
 product = base_url + '/bloomfield-8543-d2'

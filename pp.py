@@ -20,7 +20,11 @@ app = App()
 # app.wd.quit()
 
 
-app.wd.get('https://www.restaurantsupply.com/bloomfield-8543-d2')
-time.sleep(1)
-app.wd.switch_to_frame('livechat-compact-view')
-app.wd.execute_script("document.getElementById('livechat-compact-view').style.display = 'none'")
+# app.wd.get('https://www.restaurantsupply.com/bloomfield-8543-d2')
+# time.sleep(1)
+# app.wd.switch_to_frame('livechat-compact-view')
+# app.wd.execute_script("document.getElementById('livechat-compact-view').style.display = 'none'")
+# app.wd.get('https://www.restaurantsupply.com/winco-c-3080b')
+
+
+app.screenshooter.make_screenshot('https://www.restaurantsupply.com/receiving-instructions', 'test.png')

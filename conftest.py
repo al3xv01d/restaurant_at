@@ -52,26 +52,7 @@ def empty_cart(request):
 
     def fin():
         if browser is not None:
-
-            if 'checkout/cart' not in browser.wd.current_url:
-                get(base_url + '/checkout/cart/')
-                try:
-                    Wait.invisible(browser.cart_page.full_page_loader_lo)
-                    browser.cart_page.empty_cart_link.click()
-                    sleep(1)
-                except Exception as e:
-                    Wait.invisible(browser.cart_page.full_page_loader_lo)
-                    browser.cart_page.empty_cart_link.click()
-                    sleep(1)
-            else:
-                try:
-                    Wait.invisible(browser.cart_page.full_page_loader_lo)
-                    browser.cart_page.empty_cart_link.click()
-                    sleep(1)
-                except Exception as e:
-                    Wait.invisible(browser.cart_page.full_page_loader_lo)
-                    browser.cart_page.empty_cart_link.click()
-                    sleep(1)
+            browser.cart_page.empty_cart()
         else:
             pass
 

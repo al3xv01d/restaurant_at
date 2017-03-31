@@ -41,7 +41,7 @@ class Page():
         self.search_input.send_keys(search_term)
         self.search_button.click()
 
-    #-------------------------------- COMMON FOR ALL PAGES ELEMENTS (header and footer)-------------------------------------
+    #-------------------------------- COMMON ELEMENTS FOR ALL PAGES (header and footer)-------------------------------------
     @property
     def login_icon(self):
         return find(self.login_icon_lo)

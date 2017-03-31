@@ -1,5 +1,7 @@
 from pages.page import Page
-from app.tools import find
+from app.tools import find, Wait
+from time import sleep
+from config import base_url
 
 
 class CartPage(Page):
@@ -22,6 +24,26 @@ class CartPage(Page):
         self.zip_code_field.clear()
         self.zip_code_field.send_keys(zip)
 
+    def empty_cart(self):
+        if 'checkout/cart' not in self.wd.current_url:
+            self.wd.get(base_url + '/checkout/cart/')
+            try:
+                Wait.invisible(self.full_page_loader_lo)
+                self.empty_cart_link.click()
+                sleep(1)
+            except Exception as e:
+                Wait.invisible(self.full_page_loader_lo)
+                self.empty_cart_link.click()
+                sleep(1)
+        else:
+            try:
+                Wait.invisible(self.full_page_loader_lo)
+                self.empty_cart_link.click()
+                sleep(1)
+            except Exception as e:
+                Wait.invisible(self.full_page_loader_lo)
+                self.empty_cart_link.click()
+                sleep(1)
 
     #-------------------------------- ITEM ELEMENTS (returns selenium object)-------------------------------------
     def item(self, n=1):

@@ -34,10 +34,13 @@ class Screenshooter:
     # MAKE SCREENSHOTS - different types of pages.
     #Main screenshoot method for simple pages
     @staticmethod
-    def make_screenshot(url):
+    def make_screenshot(url, file_name=None):
         get(url)
         sleep(1)
-        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + Screenshooter.img_name(url))
+        if file_name == None:
+            fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + Screenshooter.img_name(url))
+        else:
+            fullpage_screenshot(file_name)
 
     @staticmethod
     def screen_all(app):
