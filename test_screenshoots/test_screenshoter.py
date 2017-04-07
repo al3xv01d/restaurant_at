@@ -12,4 +12,3 @@ def test_make_screenshots_768(app):
     app.screenshooter.init_size(768)
     app.screenshooter.screen_all(app)
 
-

@@ -21,6 +21,9 @@ def app(request):
     if is_logged == True:
         get(base_url)
         browser.index_page.login()
+        sleep(3) # значение подгружается через какое-то время, а не при открытии страницы
+        if int(browser.index_page.cart_counter_number.text) > 0:
+            browser.cart_page.empty_cart()
 
     def fin():
         global browser

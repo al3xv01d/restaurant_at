@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from app.app import App
-from app.tools import Wait
+from app.tools import Wait, finds, get
 import time
 
 app = App()
@@ -27,4 +27,10 @@ app = App()
 # app.wd.get('https://www.restaurantsupply.com/winco-c-3080b')
 
 
-app.screenshooter.make_screenshot('https://www.restaurantsupply.com/receiving-instructions', 'test.png')
+
+
+get('https://www.restaurantsupply.com/bloomfield-8543-d2')
+
+arr = finds('//div[@class="b-products-attribute"]')
+
+print(len(arr))

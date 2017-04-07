@@ -1,3 +1,4 @@
 {
-  "test_atc_product_page.py::test_add_multiple_product_to_cart": true
+  "test_shipping_invalid_zip.py::test_invalid_zip_on_shipping_page": true,
+  "test_tax_is_working.py::test_add_one_product_to_cart": true
 }

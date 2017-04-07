@@ -17,6 +17,14 @@ def find(locator='', by = 'xpath'):
     )
     return element
 
+
+def finds(locator='', by = 'xpath'):
+    elements = WebDriverWait(driver, 60).until(
+        EC.visibility_of_any_elements_located((By.XPATH, locator))
+    )
+    return elements
+
+
 def hover(element_to_hover):
     pass
 

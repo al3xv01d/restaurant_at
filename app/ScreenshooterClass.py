@@ -37,68 +37,28 @@ class Screenshooter:
     def make_screenshot(url, file_name=None):
         get(url)
         sleep(1)
-        if file_name == None:
-            fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + Screenshooter.img_name(url))
-        else:
-            fullpage_screenshot(file_name)
+        fullpage_screenshot(browser + '/' + Screenshooter.todays_date + '/' + Screenshooter.resolution_catalog + '/' + file_name)
+
 
     @staticmethod
     def screen_all(app):
-        Screenshooter.make_screenshot(index)
-        Screenshooter.make_screenshot(simple_product)
-        Screenshooter.make_screenshot(product_with_related)
-        Screenshooter.make_screenshot(product_video)
-        Screenshooter.make_screenshot(dap_on_gesture)
-        Screenshooter.make_screenshot(dap_in_cart)
-        Screenshooter.make_screenshot(dap_before_order_confirmation)
-        Screenshooter.make_screenshot(cat_tpl_1)
-        Screenshooter.make_screenshot(cat_tpl_2)
-        Screenshooter.make_screenshot(cat_tpl_6)
-        Screenshooter.make_screenshot(cat_tpl_7)
-        Screenshooter.make_screenshot(cat_tpl_8)
-        Screenshooter.make_screenshot(cat_tpl_9)
-        Screenshooter.make_screenshot(cat_tpl_10)
+        Screenshooter.make_screenshot(index, '1-index.png')
+        Screenshooter.make_screenshot(simple_product, '2-simple-product.png')
+        Screenshooter.make_screenshot(product_with_related, '3-product_with_related.png')
+        Screenshooter.make_screenshot(product_video, '4-product_video.png')
+        Screenshooter.make_screenshot(dap_on_gesture, '5-dap_on_gesture.png')
+        Screenshooter.make_screenshot(dap_in_cart, '6-dap_in_cart.png')
+        Screenshooter.make_screenshot(dap_before_order_confirmation, '7-dap_before_order_confirmation.png')
+        Screenshooter.make_screenshot(cat_tpl_1, '8-cat_tpl_1.png')
+        Screenshooter.make_screenshot(cat_tpl_2, '9-cat_tpl_2.png')
+        Screenshooter.make_screenshot(cat_tpl_6, '10-cat_tpl_6.png')
+        Screenshooter.make_screenshot(cat_tpl_7, '11-cat_tpl_7.png')
+        Screenshooter.make_screenshot(cat_tpl_8, '12-cat_tpl_8.png')
+        Screenshooter.make_screenshot(cat_tpl_9, '13-cat_tpl_9.png')
+        Screenshooter.make_screenshot(cat_tpl_10, '14-cat_tpl_10.png')
         Screenshooter.shipping_page(app)
         Screenshooter.billing_page(app)
         Screenshooter.cart_page(app)
-
-    @staticmethod
-    def img_name(url):
-
-        if url == base_url + '/':
-            return 'index.png'
-
-        if 'san-jamar-s46tbk-46-oz-wall-mounted-bulk-liquid-soap-dispenser-black-pearl' in url:
-            return 'simple_product.png'
-        if 'bloomfield-8774-a' in url:
-            return 'product_with_related_products.png'
-        if 'manitowoc-iy-0304a' in url:
-            return 'product_with_video.png'
-
-        if '/berkel-mb-3-8' in url:
-            return 'dap_on_gesture.png'
-        if '/amana-rfs18ts-medium-duty-stainless-steel-commercial-microwave-with-push-button-controls-208-230v-1800w' in url:
-            return 'dap_in_cart.png'
-        if '/manitowoc-jc-0995' in url:
-            return 'dap_before_order_confirmation.png'
-
-        if '/best-sellers' in url:
-            return 'category_template_1.png'
-        if '/storage-and-transport' in url:
-            return 'category_template_2.png'
-        if '/food-preparation' in url:
-            return 'category_template_6.png'
-        if '/everpure' in url:
-            return 'category_template_7.png'
-        if '/best-selling-fryer-baskets' in url:
-            return 'category_template_8.png'
-        if '/janitorial-supplies' in url:
-            return 'category_template_9.png'
-        if '/table-mounted-stainless-steel-shelving-units' in url:
-            return 'category_template_10.png'
-
-        if '/amana-microwave-ovens' in url:
-            return 'category_products_grid.png'
 
     #Screenshoot methods for pages which needs some interaction
 

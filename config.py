@@ -1,15 +1,15 @@
 from selenium import webdriver
 
-browser = 'chrome'
-server = 'dev'
+browser = 'firefox'
+server = 'prod'
 
 user = 'altest2@yandex.com'
 password = 'Testusa1'
 
-admin_user = 'akh'
-admin_password = '34-gtshKF5sgD2'
+admin_user = '111'
+admin_password = '111'
 
-is_logged = True
+is_logged = False
 
 #----------------------------
 
