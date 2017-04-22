@@ -1,7 +1,7 @@
 from selenium import webdriver
 
-browser = 'firefox'
-server = 'prod'
+browser = 'chrome'
+server = 'dev'
 
 user = 'altest2@yandex.com'
 password = 'Testusa1'
@@ -29,14 +29,19 @@ elif browser == "ie":
 
 
 # BASE URL
-if server == 'stage':
-    base_url = 'http://stage.restaurantsupply.com'
+if server == 'dev':
+    base_url = 'http://gomage777:gomage777@dev.restaurantsupply.com'
+elif server == 'stage':
+    base_url = 'http://gomage777:gomage777@stage.restaurantsupply.com'
 elif server == 'prod':
     base_url = 'https://restaurantsupply.com'
-if server == 'dev':
-    base_url = 'http://dev.restaurantsupply.com'
 
 
-product = base_url + '/bloomfield-8543-d2'
-product_with_related = base_url + '/bloomfield-8543-d2'
-category = base_url + '/bloomfield-commercial-coffee-makers-brewers-pourover'
+if server == 'prod':
+    product = base_url + '/bloomfield-8543-d2'
+    product_with_related = base_url + '/bloomfield-8543-d2'
+    category = base_url + '/bloomfield-commercial-coffee-makers-brewers-pourover'
+elif server == 'stage' or server == 'dev':
+    product = base_url + '/bloomfield-8543-d2.html'
+    product_with_related = base_url + '/bloomfield-8543-d2.html'
+    category = base_url + '/electronic-portion-control-scales.html'

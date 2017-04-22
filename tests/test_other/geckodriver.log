@@ -1,0 +1,6 @@
+1492172280196	geckodriver	INFO	Listening on 127.0.0.1:25675
+1492172280264	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.BrEEyMy0UdfA
+1492172280268	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1492172280286	geckodriver::marionette	INFO	Connecting to Marionette on localhost:25679
+1492172281571	Marionette	INFO	Listening on port 25679
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: SyntaxError: JSON.parse: unexpected end of data at line 1 column 1 of the JSON data

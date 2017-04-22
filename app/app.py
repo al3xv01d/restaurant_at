@@ -9,6 +9,7 @@ from pages.index import IndexPage
 from pages.search_page import SearchPage
 from app.ScreenshooterClass import Screenshooter
 
+from time import sleep
 
 class App:
 
@@ -31,6 +32,8 @@ class App:
         get(product)
 
         self.product_page.add_to_cart()
+        Wait.visible(self.product_page.minicart_popup_lo)
+        self.product_page.minicart_popup.view_cart_link.click()
 
         # *****************************on cart page
         Wait.invisible(self.cart_page.full_page_loader_lo)
@@ -46,7 +49,7 @@ class App:
         self.checkout_page.fill_shipping_form()
 
         Wait.invisible(self.cart_page.full_page_loader_lo)
-
+        #sleep(5)
         self.checkout_page.fill_billing_form(billing_equal_shipping)
         self.checkout_page.fill_cc_form()
 

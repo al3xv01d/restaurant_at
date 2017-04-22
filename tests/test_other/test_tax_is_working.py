@@ -8,6 +8,8 @@ def test_add_one_product_to_cart(app):
     get(product)
 
     app.product_page.add_to_cart()
+    Wait.visible(app.product_page.minicart_popup_lo)
+    app.product_page.minicart_popup.view_cart_link.click()
 
     # now we are on cart page
     app.cart_page.enter_zip('06001')

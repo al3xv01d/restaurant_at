@@ -1,0 +1,7 @@
+1492167058923	geckodriver	INFO	Listening on 127.0.0.1:23066
+1492167059627	mozprofile::profile	INFO	Using profile path C:\Users\User\AppData\Local\Temp\rust_mozprofile.1ofN2ZrD9iew
+1492167059631	geckodriver::marionette	INFO	Starting browser D:\Program Files\Mozilla Firefox\firefox.exe
+1492167059640	geckodriver::marionette	INFO	Connecting to Marionette on localhost:23070
+1492167061744	Marionette	INFO	Listening on port 23070
+JavaScript error: https://www.restaurantsupply.com/pub/static/_cache/merged/142f8ed84c680239ab7f01449879de4b.min.js line 170 > Function, line 1: Error: [object Object]
+JavaScript error: , line 0: uncaught exception: undefined

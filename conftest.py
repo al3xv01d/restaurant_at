@@ -15,8 +15,8 @@ def app(request):
     if browser is None:
         browser = App()
 
-    if server == 'stage':
-        browser.wd.get('http://gomage777:gomage777@stage.restaurantsupply.com')
+    # if server == 'stage':
+    #     browser.wd.get('http://gomage777:gomage777@stage.restaurantsupply.com')
 
     if is_logged == True:
         get(base_url)

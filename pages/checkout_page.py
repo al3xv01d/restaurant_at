@@ -39,7 +39,10 @@ class CheckoutPage(Page):
     billing_city_lo = '//form[@id="co-payment-form"]//input[@name="city"]'
     billing_state_lo = '//form[@id="co-payment-form"]//select[@name="region_id"]'
     billing_country_lo = '//form[@id="co-payment-form"]//select[@name="country_id"]'
-    billing_phone_lo = '//form[@id="co-payment-form"]//input[@name="telephone"]'
+
+    billing_phone_1_lo = '//form[@id="co-payment-form"]//div[@class="field telephone"]/input[1]'
+    billing_phone_2_lo = '//form[@id="co-payment-form"]//div[@class="field telephone"]/input[2]'
+    billing_phone_3_lo = '//form[@id="co-payment-form"]//div[@class="field telephone"]/input[3]'
 
     cc_number_lo = '//input[@id="credit-card-number"]'
     cc_month_lo = '//input[@id="expiration-month"]'
@@ -120,8 +123,7 @@ class CheckoutPage(Page):
             Wait.visible(self.full_page_loader_lo)
             Wait.invisible(self.full_page_loader_lo)
 
-            self.billing.phone.clear()
-            self.billing.phone.send_keys(Random.phone())
+            self.fill_phone(2)
 
     def fill_cc_form(self):
         self.wd.switch_to_frame('braintree-hosted-field-number')
@@ -140,15 +142,27 @@ class CheckoutPage(Page):
         self.billing.cc_cvv.send_keys(222)
         self.wd.switch_to_default_content()
 
-    def fill_phone(self):
-        self.shipping.phone_1.clear()
-        self.shipping.phone_1.send_keys(Random.number(3))
+    def fill_phone(self, stage=1):
 
-        self.shipping.phone_2.clear()
-        self.shipping.phone_2.send_keys(Random.number(3))
+        if stage == 1:
+            self.shipping.phone_1.clear()
+            self.shipping.phone_1.send_keys(Random.number(3))
 
-        self.shipping.phone_3.clear()
-        self.shipping.phone_3.send_keys(Random.number(4))
+            self.shipping.phone_2.clear()
+            self.shipping.phone_2.send_keys(Random.number(3))
+
+            self.shipping.phone_3.clear()
+            self.shipping.phone_3.send_keys(Random.number(4))
+        elif stage == 2:
+            self.billing.phone_1.clear()
+            self.billing.phone_1.send_keys(Random.number(3))
+
+            self.billing.phone_2.clear()
+            self.billing.phone_2.send_keys(Random.number(3))
+
+            self.billing.phone_3.clear()
+            self.billing.phone_3.send_keys(Random.number(4))
+
 
     # -------------------------------- SHIPPING PAGE ELEMENTS (returns selenium object)-------------------------------------
     @property
@@ -269,8 +283,16 @@ class CheckoutPage(Page):
                 return find(CheckoutPage.billing_country_lo)
 
             @property
-            def phone(self):
-                return find(CheckoutPage.billing_phone_lo)
+            def phone_1(self):
+                return find(CheckoutPage.billing_phone_1_lo)
+
+            @property
+            def phone_2(self):
+                return find(CheckoutPage.billing_phone_2_lo)
+
+            @property
+            def phone_3(self):
+                return find(CheckoutPage.billing_phone_3_lo)
 
             #****************CREDIT CART FORM**************************
 

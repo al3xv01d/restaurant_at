@@ -17,6 +17,12 @@ class Page():
     search_button_lo = '//button[@id="search_button"]'
     full_page_loader_lo = '//div[@class="loading-mask"]'
 
+    minicart_popup_lo = '//div[@id="minicart-content-wrapper"]'
+    minicart_popup_title_lo = './/div[@class="mc-just-added-title"]'
+    minicart_popup_product_link_lo = './/div[@class="mc-just-added-item-title"]/a'
+    minicart_popup_view_cart_link_lo = './/div[@class="mc-just-added-actions"]/a[1]'
+    minicart_popup_checkout_link_lo = './/div[@class="mc-just-added-actions"]//button'
+
     # --------------------------------  ACTIONS ------------------------------------------------------------------
     def login(self):
         self.login_icon.click()
@@ -62,3 +68,30 @@ class Page():
     def search_button(self):
         return find(self.search_button_lo)
 
+    # MINICART POP-UP
+
+    @property
+    def minicart_popup(self):
+
+        class MinicartPopup:
+
+            def __init__(self):
+                self.minicart_popup = find(Page.minicart_popup_lo)
+
+            @property
+            def title(self):
+                return self.minicart_popup.find_element_by_xpath(Page.minicart_popup_title_lo)
+
+            @property
+            def product_link(self):
+                return self.minicart_popup.find_element_by_xpath(Page.minicart_popup_product_link_lo)
+
+            @property
+            def view_cart_link(self):
+                return self.minicart_popup.find_element_by_xpath(Page.minicart_popup_view_cart_link_lo)
+
+            @property
+            def checkout_link(self):
+                return self.minicart_popup.find_element_by_xpath(Page.minicart_popup_checkout_link_lo)
+
+        return MinicartPopup()

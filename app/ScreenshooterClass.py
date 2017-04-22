@@ -66,6 +66,8 @@ class Screenshooter:
     def shipping_page(app):
         get(simple_product)
         app.product_page.add_to_cart()
+        Wait.visible(app.product_page.minicart_popup_lo)
+        app.product_page.minicart_popup.view_cart_link.click()
 
         Wait.invisible(app.cart_page.full_page_loader_lo)
         Wait.is_clickable(app.cart_page.checkout_button_lo)
@@ -82,6 +84,8 @@ class Screenshooter:
     def billing_page(app, billing_equal_shipping=False):
         get(simple_product)
         app.product_page.add_to_cart()
+        Wait.visible(app.product_page.minicart_popup_lo)
+        app.product_page.minicart_popup.view_cart_link.click()
 
         Wait.invisible(app.cart_page.full_page_loader_lo)
 
@@ -108,6 +112,10 @@ class Screenshooter:
         app.product_page.add_related(2, 3)
 
         app.product_page.add_to_cart()
+        Wait.visible(app.product_page.minicart_popup_lo)
+        app.product_page.minicart_popup.view_cart_link.click()
+
+
         Wait.visible(app.cart_page.checkout_button_lo) # for firefox, otherwise don't work
         Wait.invisible(app.cart_page.full_page_loader_lo)
         sleep(0.5)
